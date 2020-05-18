@@ -1,0 +1,29 @@
+<div style="float: centre; max-width: 500px; width: 200px; height: 200px; margin-top: 200px;
+      margin-left: 600px; top: 50%;
+      left: 50%;">
+		<form class="form-signin">
+	  <div class="text-center mb-4">
+		<h1 class="h3 mb-3 font-weight-normal">Sign-in</h1>
+		 </div>
+	
+	  <div class="form-label-group">
+		<label for="inputEmail">Email address</label>
+		<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+		
+	  </div>
+	
+	  <div class="form-label-group">
+		<label for="inputPassword">Password</label>
+		<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+		
+	  </div>
+	
+	  <div class="checkbox mb-3">
+		<label>
+		  <input type="checkbox" value="remember-me"> Remember me
+		</label>
+	  </div>
+	  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	  
+	</form>
+	</div>

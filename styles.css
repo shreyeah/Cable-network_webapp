@@ -1,0 +1,59 @@
+.products
+		{
+			float: left;
+			width: 69%;
+			background-color:Azure  ;
+			min-height: 100%;
+
+		}
+		.cart
+		{
+			float: right;
+			width: 29%;
+			min-height: 100vh;
+			background-color: Aquamarine ;
+			border:2px solid DodgerBlue;
+			position: relative;
+		}
+		.image
+		{
+			size: 400px;
+			float: left;
+			padding: 20px;
+			margin: 10px;
+		}
+		.content
+		{
+			
+			color: #003325;
+		
+			margin: 10px;
+
+		}
+		.bar-btn {
+  			background-color: #4CAF50;
+  			color: white;
+ 			 padding: 16px;
+  			font-size: 16px;
+ 			 border: none;
+
+		}
+
+		.dropdown-bar {
+  		position: relative;
+  		display: inline-block;
+
+		}
+		.dropdown-btn{
+			position: absolute;
+			
+			display: inline-block;
+		}
+
+		.Dropdown-btn:hover .Dropdown{ display: block; }
+		
+		.Dropdown {
+  		display: none;
+  		position: absolute;
+  		z-index: 1000;
+		}
